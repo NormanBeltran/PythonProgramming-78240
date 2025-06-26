@@ -13,4 +13,16 @@ Ej: ["ANA", "MARIA", "JOSE, "PEDRO", "LUCAS", "ANA", "ANA", "MARIA","MARIA","MAR
 n = 10
 [0,1,1,2,3,5,8,13,21,34]
 
+
+
+nombres = ["ANA", "JOSE", "PEDRO", "LUCAS", "ANA", "ANA", "MARIA", "MARIA", "MARIA", "MARIA", "MARIA", "MARIA"]
+resumen = {nombre: nombres.count(nombre) for nombre in set(nombres)}
+
+print(resumen)
 """
+
+fibo = [0, 1]
+cantidad = 10
+[fibo.append(fibo[-1] + fibo[-2]) for _ in range(cantidad - 2)]
+
+print(fibo)
